@@ -1,3 +1,2 @@
 # cv
 
-## Hosting public CV
