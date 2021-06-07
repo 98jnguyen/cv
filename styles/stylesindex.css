@@ -4,9 +4,14 @@ nav, header, footer {
     display:block;
   }
   
-  body{
-      background-color: #e6faff;
-  }
+body{
+    background: url("pictures/mountains.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+}
 
 
   
@@ -18,9 +23,11 @@ nav, header, footer {
   
   h1 {
       text-align: center;
+      color: white;
   }
   p{
       text-align:center;
+      color: white;
   }
   /* #################### Nav ############################# */
   nav {
@@ -54,6 +61,7 @@ nav, header, footer {
     text-align: right;
     padding: 14px;
     text-transform: uppercase;
+    color:burlywood;
   
   }
   /*#################### Image ###########*/
