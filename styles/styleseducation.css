@@ -5,8 +5,11 @@ nav, header, footer {
   }
   
   body{
-      background-color: #e6faff;
-  }
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
   
   .myimg{
     width:225px;
@@ -22,7 +25,11 @@ nav, header, footer {
   
   h1 {
       text-align: center;
+      color:cornsilk;
   }
+  h2,h3,p{
+    color:cornsilk;
+}
   /* #################### Nav ############################# */
   nav {
     width: 100%;
@@ -55,6 +62,7 @@ nav, header, footer {
     text-align: right;
     padding: 14px;
     text-transform: uppercase;
+    color:burlywood;
   
   }
   /*#################### LinkedIn ###########*/
