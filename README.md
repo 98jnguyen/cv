@@ -1,5 +1,5 @@
 ## Personal CV Page
 
-#Purpose:
+## Purpose:
   To showcase my personal portfolio using HTML and CSS.
 
